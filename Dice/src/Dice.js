@@ -24,7 +24,7 @@ class DiceTester {
     if (this.sides === 6){
         var array =[];
     for( let i=1; i <= this.sides; i++) {
-        array.push(Math.floor(Math.random()*this.sides)+1)
+        array.push(this.sides [Math.floor(Math.random()*this.sides)])
     
     }
     

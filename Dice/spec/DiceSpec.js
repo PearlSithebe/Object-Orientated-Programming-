@@ -14,6 +14,6 @@ it ("should be be able to test only a die with 6 sides", function () {
 })
 it ("should be be able to test if the die is weighted or fair", function () {
     let dice = new DiceTester(6);
-    expect (dice.dieTest()).toBe(true);
+    expect (dice.dieTest()).toBe(false);
 })
 
